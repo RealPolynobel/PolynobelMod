@@ -2,15 +2,15 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "polynobel:chessboard",
+            "identifier": "polynobel:chair",
             "materials": {
                 "default": "entity"
             },
             "textures": {
-                "default": "textures/entity/chessboard"
+                "default": "textures/entity/chair"
             },
             "geometry": {
-                "default": "geometry.chessboard"
+                "default": "geometry.chair"
             },
             "render_controllers": [
                 "controller.render.default"
