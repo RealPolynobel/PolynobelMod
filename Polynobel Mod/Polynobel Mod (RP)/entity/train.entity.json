@@ -18,6 +18,14 @@
             "spawn_egg": {
                 "base_color": "#303030",
                 "overlay_color": "#f6c55c"
+            },
+            "scripts": {
+                "animate": [
+                  "move"
+                ]
+            },
+            "animations": {
+                "move": "animation.steam.move"
             }
         }
     }
