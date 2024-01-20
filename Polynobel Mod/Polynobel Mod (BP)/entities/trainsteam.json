@@ -61,7 +61,7 @@
         "family": [ "engine" ]
       },
       "minecraft:scale": {
-        "value": 2.0
+        "value": 1.0
       },
       "minecraft:collision_box": {
         "width": 2.8,
