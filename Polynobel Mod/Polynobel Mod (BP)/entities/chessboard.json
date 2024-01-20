@@ -10,7 +10,11 @@
         	"minecraft:physics": {},
 		"minecraft:nameable": {},
             	"minecraft:experience_reward": {
-                	"on_death": 8
+                	"on_death": 700
+		},
+		"minecraft:pushable":{
+    			"is_pushable": false,
+    			"is_pushable_by_piston": true
 		}
         }
     }
