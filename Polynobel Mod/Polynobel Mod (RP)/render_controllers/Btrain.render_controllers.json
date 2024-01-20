@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.train": {
+      "arrays":{
+        "textures":{
+          "Array.skins": [ "Texture.red", "Texture.green", "Texture.blue", "Texture.yellow", "Texture.orange", "Texture.purple", "Texture.white", "Texture.black" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

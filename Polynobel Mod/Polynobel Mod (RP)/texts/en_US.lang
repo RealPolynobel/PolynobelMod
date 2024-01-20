@@ -1,0 +1,23 @@
+entity.polynobel:test.name=test
+item.spawn_egg.entity.polynobel:test.name=Spawn test
+entity.polynobel:train.name=train
+item.spawn_egg.entity.polynobel:train.name=Spawn train
+entity.polynobel:trainsteam.name=trainsteam
+item.spawn_egg.entity.polynobel:trainsteam.name=Spawn trainsteam
+
+item.spawn_egg.entity.polynobel:carriage.name=Carriage
+item.spawn_egg.entity.polynobel:cargo.name=Cargo
+
+item.polynobel:carriage_coupler.name=Carriage Coupler
+item.polynobel:cargo_coupler.name=Cargo Coupler
+
+entity.polynobel:carriage.name=Carriage
+entity.polynobel:cargo.name=Cargo
+
+action.hint.exit.polynobel:trainsteam=Crouch to exit
+action.hint.exit.polynobel:carriage=Crouch to exit
+action.hint.exit.polynobel:cargo=Crouch to exit, interact to open storage
+
+action.interact.ride=Ride
+action.interact.paint=Paint
+action.interact.couple=Connect

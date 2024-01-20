@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Polynobel Mod (BP)",
+        "description": "",
+        "uuid": "fbd409b5-a295-4c8b-bfd1-d40af8a2e352",
+        "min_engine_version": [1, 12, 0],
+        "version": [0, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "data",
+            "uuid": "3fcdd1b7-c493-4366-9cd5-d8e3a0b945fd",
+            "version": [0, 0, 2]
+        }
+    ]
+}

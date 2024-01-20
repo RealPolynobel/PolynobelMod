@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "polynobel:cargo",
+      "materials": {
+        "default": "spider"
+      },
+      "textures": {
+        "default": "textures/entity/cargo/black"
+      },
+      "geometry": {
+        "default": "geometry.Btrain"
+      },
+      "render_controllers": [
+        "controller.render.Btrain"
+      ],
+      "spawn_egg": {
+        "texture": "cargo"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.str": {
+            "initial_state": "init",
+            "states": {
+                "init": {
+                    "transitions": [
+                        { "leash": "query.structural_integrity < 40" }
+                    ]
+                },
+                "leash": {
+                    "on_entry": [
+                        "@s despawn"
+                    ]
+                }
+            }
+        },
+        "controller.animation.leash": {
+            "initial_state": "init",
+            "states": {
+                "init": {
+                    "transitions": [
+                        { "leash": "query.skin_id == 1" }
+                    ]
+                },
+                "leash": {
+                    "on_entry": [
+                        "/tp @s ^3 ^ ^",
+                        "@s remove_leashed_summon"
+                    ],
+                    "transitions": [
+                        { "init": "query.skin_id != 1" }
+                    ]
+                }
+            }
+        }
+    }
+}

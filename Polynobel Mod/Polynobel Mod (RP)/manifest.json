@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Polynobel Mod (RP)",
+        "description": "",
+        "uuid": "8247c96f-4ad1-4961-9a93-c66db01b2d54",
+        "min_engine_version": [1, 12, 0],
+        "version": [0, 0, 2]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "991d94cd-671d-4123-9256-24ddc67acdc1",
+            "version": [0, 0, 2]
+        }
+    ]
+}
