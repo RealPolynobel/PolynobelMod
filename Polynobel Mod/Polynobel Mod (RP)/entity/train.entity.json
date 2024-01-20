@@ -25,7 +25,7 @@
                 ]
             },
             "animations": {
-                "move": "animation.steam.move"
+                "move": "animation.train.move"
             }
         }
     }
