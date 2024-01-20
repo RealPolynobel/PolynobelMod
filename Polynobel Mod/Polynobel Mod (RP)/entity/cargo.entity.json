@@ -13,7 +13,7 @@
         "default": "geometry.Btrain"
       },
       "render_controllers": [
-        "controller.render.Btrain"
+        "controller.render.default"
       ],
       "spawn_egg": {
         "texture": "cargo"
