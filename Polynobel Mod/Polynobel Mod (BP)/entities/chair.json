@@ -7,19 +7,15 @@
             "is_summonable": true
         },
         "components": {
-		"minecraft:rideable":{
-    			"pull_in_entities": false,
-   			 "rider_can_interact": false,
-    			"seat_count": 1,
-    			"seats": {
-        			"max_rider_count": "seat_count",
-        			"min_rider_count": 0,
-        			"position": [0, 1, 0],
-        			"rotate_rider_by": 0
-    				},
-		},
         	"minecraft:physics": {},
 		"minecraft:nameable": {},
+		"minecraft:rideable": {
+        		"seat_count": 1,
+        		"pull_in_entities": true,
+        		"seats": {
+          			"position": [ 0.0, 1, 0.0 ]
+        		}
+      		},
             	"minecraft:experience_reward": {
                 	"on_death": 700
 		},
