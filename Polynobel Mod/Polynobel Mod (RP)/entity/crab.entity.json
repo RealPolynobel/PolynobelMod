@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "polynobel:crab",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/crab"
+            },
+            "geometry": {
+                "default": "geometry.crab"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#ba9e7c",
+                "overlay_color": "#3b9dff"
+            }
+        }
+    }
+}
