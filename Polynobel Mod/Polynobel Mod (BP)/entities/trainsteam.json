@@ -28,32 +28,6 @@
             "spawn_item": "polynobel:trainsteam_spawn_egg"
           }
         }
-      },
-      "summon_carriage":{
-        "minecraft:spawn_entity": {
-          "entities": {
-            "min_wait_time": 0,
-            "max_wait_time": 0,
-            "spawn_sound": "random.anvil_use",
-            "single_use": true,
-            "spawn_entity": "polynobel:carriage",
-            "should_leash": true,
-            "spawn_event": "leashed_summon"
-          }
-        }
-      },
-      "summon_cargo":{
-        "minecraft:spawn_entity": {
-          "entities": {
-            "min_wait_time": 0,
-            "max_wait_time": 0,
-            "spawn_sound": "random.anvil_use",
-            "single_use": true,
-            "spawn_entity": "polynobel:cargo",
-            "should_leash": true,
-            "spawn_event": "leashed_summon"
-          }
-        }
       }
     },
     "components": {
@@ -89,42 +63,6 @@
           }
         ]
       },
-      "minecraft:interact": {
-				"interactions": [
-          {
-						"on_interact": {
-							"filters": {
-								"all_of": [
-                  { "test": "is_sneaking", "subject": "player", "operator": "equals", "value": true },
-                  { "test": "rider_count", "subject": "self", "operator": "equals", "value": 0 },
-								  { "test": "has_equipment", "subject": "player", "domain": "hand", "value": "edge:carriage_coupler"}
-								]
-							},
-							"event": "summon_carriage",
-							"target": "self"
-						},
-						"use_item": true,
-            "swing": true,
-						"interact_text": "action.interact.couple"
-					},
-          {
-						"on_interact": {
-							"filters": {
-								"all_of": [
-                  { "test": "is_sneaking", "subject": "player", "operator": "equals", "value": true },
-                  { "test": "rider_count", "subject": "self", "operator": "equals", "value": 0 },
-								  { "test": "has_equipment", "subject": "player", "domain": "hand", "value": "edge:cargo_coupler"}
-								]
-							},
-							"event": "summon_cargo",
-							"target": "self"
-						},
-						"use_item": true,
-            "swing": true,
-						"interact_text": "action.interact.couple"
-					}
-				]
-			},
       "minecraft:nameable": {
       },
       "minecraft:rideable": {
@@ -173,20 +111,6 @@
         "add":{
           "component_groups":[
             "despawn"
-          ]
-        }
-      },
-      "summon_carriage":{
-        "add":{
-          "component_groups":[
-            "summon_carriage"
-          ]
-        }
-      },
-      "summon_cargo":{
-        "add":{
-          "component_groups":[
-            "summon_cargo"
           ]
         }
       }
