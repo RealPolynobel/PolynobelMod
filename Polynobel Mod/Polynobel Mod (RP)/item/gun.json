@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "Polynobel Mod (RP)",
+  "texture_data": {
+    "demo:goo": {
+      "textures": "textures/items/gun"
+    }
+  }
+}
