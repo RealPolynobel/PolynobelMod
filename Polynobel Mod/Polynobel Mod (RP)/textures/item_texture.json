@@ -1,21 +1,8 @@
 {
-  "resource_pack_name": "real_train",
-  "texture_name": "atlas.items",
+  "resource_pack_name": "Polynobel Mod (RP)",
   "texture_data": {
-    "engine": {
-      "textures": "textures/items/engine"
-    },
-    "carriage": {
-      "textures": "textures/items/carriage"
-    },
-	  "cargo": {
-      "textures": "textures/items/cargo"
-    },
-    "carriage_coupler":{
-      "textures": "textures/items/carriage_coupler"
-    },
-    "cargo_coupler":{
-      "textures": "textures/items/cargo_coupler"
+    "polynobel:gun": {
+      "textures": "textures/items/gun"
     }
   }
 }
