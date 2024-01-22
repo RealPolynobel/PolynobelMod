@@ -15,18 +15,6 @@
       },
 		"minecraft:use_modifiers" {
 			"use_duration": 0.1
-		},
-		"minecraft:shooter":{
-    		"ammunition" :[{
-				"item" :"arrow",
-				"use_offhand" :true,
-				"search_inventory" :true,
-				"use_in_creative" :true
-    		}],
-    		"max_draw_duration" :1.0,
-    		"scale_power_by_draw_duration" :true,
-    		"charge_on_draw" :false
 		}
-	}
   }
 }
