@@ -16,6 +16,11 @@
 					"pivot": [0, 7, 61.75]
 				},
 				{
+					"name": "train",
+					"parent": "body",
+					"pivot": [0, 7, 61.75]
+				},
+				{
 					"name": "roof",
 					"parent": "train",
 					"pivot": [-32, 7, 29.75]
