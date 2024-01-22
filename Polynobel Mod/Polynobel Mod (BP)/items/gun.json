@@ -12,9 +12,6 @@
       },
       "minecraft:display_name": {
         "value": "Pew Pew"
-      },
-		"minecraft:use_modifiers" {
-			"use_duration": 0.1
-		}
+      }
   }
 }
