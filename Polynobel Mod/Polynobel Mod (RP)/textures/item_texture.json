@@ -3,6 +3,9 @@
   "texture_data": {
     "polynobel:gun": {
       "textures": "textures/items/gun"
+    },
+    "polynobel:bullet": {
+      "textures": "textures/items/bullet"
     }
   }
 }
