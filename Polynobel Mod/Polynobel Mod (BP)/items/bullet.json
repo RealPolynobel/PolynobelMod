@@ -1,1 +1,22 @@
-
+{
+	"format_version": "1.20.13",
+	"minecraft:item": {
+    	"description": {
+      		"identifier": "polynobel:bullet",
+      		"category": "Items"
+    	},
+    	"components": {
+      		"minecraft:max_stack_size": 1,
+      		"minecraft:icon": {
+        		"texture": "polynobel:bullet"
+      		},
+      		"minecraft:display_name": {
+        		"value": "sleepy pills"
+      		},
+            "minecraft:projectile":{
+                "minimum_critical_power": 0.25,
+                "projectile_entity": "arrow"
+            }
+		}
+	}
+}
