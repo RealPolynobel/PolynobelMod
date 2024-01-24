@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "polynobel:bulletentity",
+            "is_spawnable": true,
+            "is_summonable": true
+        },
+        "components": {
+        	"minecraft:physics": {},
+			"minecraft:nameable": {},
+			"minecraft:projectile":{
+				"anchor": 1,
+				"offset": [0,-0.1,0],
+				"power": 1.3,
+				"shoot_sound": "bow.hit"
+			}
+        }
+    }
+}
