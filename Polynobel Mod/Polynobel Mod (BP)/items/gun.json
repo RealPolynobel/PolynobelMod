@@ -19,7 +19,7 @@
 			},
 			"minecraft:shooter":{
     			"ammunition" :[{
-					"item" :"arrow",
+					"item" :"minecraft:arrow",
 					"use_offhand" :true,
 					"search_inventory" :true,
 					"use_in_creative" :true
