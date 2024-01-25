@@ -18,14 +18,14 @@
 			},
 			"minecraft:shooter":{
     			"ammunition" :[{
-					"item" :"bullet",
+					"item" :"polynobel:bullet",
 					"use_offhand" :true,
 					"search_inventory" :true,
 					"use_in_creative" :false
    				}],
     			"max_draw_duration" :1.0,
-    			"scale_power_by_draw_duration" :true,
-    			"charge_on_draw" :false
+    			"scale_power_by_draw_duration" :false,
+    			"charge_on_draw" :true
 			}
 		}
 	}
