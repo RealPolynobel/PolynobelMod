@@ -15,7 +15,7 @@
       		},
             "minecraft:projectile":{
                 "minimum_critical_power": 0.25,
-                "projectile_entity": "arrow"
+                "projectile_entity": "bulletentity"
             }
 		}
 	}
