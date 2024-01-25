@@ -18,7 +18,7 @@
 			},
 			"minecraft:shooter":{
     			"ammunition" :[{
-					"item" :"sleepy pills",
+					"item" :"bullet",
 					"use_offhand" :true,
 					"search_inventory" :true,
 					"use_in_creative" :false
