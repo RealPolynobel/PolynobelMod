@@ -21,7 +21,7 @@
 					"item" :"polynobel:bullet",
 					"use_offhand" :true,
 					"search_inventory" :true,
-					"use_in_creative" :false
+					"use_in_creative" :true
    				}],
     			"max_draw_duration" :1.0,
     			"scale_power_by_draw_duration" :false,
