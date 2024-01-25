@@ -16,15 +16,6 @@
 			"minecraft:use_modifiers": {
 				"use_duration": 1.0,
 				"movement_modifier": 1.0
-			},
-			"minecraft:shooter":{
-    			"ammunition" :[{
-					"item" :"sleepy pills",
-					"use_offhand" :true,
-					"search_inventory" :true,
-					"use_in_creative" :true
-   				}],
-    			"max_draw_duration" :0.1
 			}
 		}
 	}
