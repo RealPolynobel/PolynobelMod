@@ -4,7 +4,8 @@
         "description": {
             "identifier": "polynobel:bulletentity",
             "is_spawnable": true,
-            "is_summonable": true
+            "is_summonable": true,
+		"runtime_identifier": "minecraft:snowball"
         },
         "components": {
         	"minecraft:physics": {},
