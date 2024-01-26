@@ -1,5 +1,5 @@
 {
-  "format_version": "1.11.0",
+  "format_version": "1.20.13",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:player",
@@ -9,13 +9,13 @@
 		},
 
     "component_groups": {
-	  "minecraft:spell1": {
+	  "minecraft:gun": {
 	    "minecraft:spawn_entity": {
 		  "min_wait_time": 0,
 		  "max_wait_time": 0,
 		  "num_to_spawn": 1,
 		  "single_use": true,
-		  "spawn_entity": "dakon:spell1"
+		  "spawn_entity": "polynobel:bulletentity"
 		}
 	  },
 	  
