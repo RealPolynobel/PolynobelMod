@@ -11,14 +11,6 @@
         "nutrition": 0,
         "saturation_modifier": "supernatural",
         "can_always_eat": true
-      },
-		"minecraft:max_stack_size": 1,
-      		"minecraft:icon": {
-        		"texture": "polynobel:gun"
-      		},
-      		"minecraft:display_name": {
-        		"value": "Pew Pew"
-      		}
-    }
+      }
   }
 }
