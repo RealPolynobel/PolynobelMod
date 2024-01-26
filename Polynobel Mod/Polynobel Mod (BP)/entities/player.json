@@ -5,7 +5,18 @@
       "identifier": "minecraft:player",
       "is_spawnable": false,
       "is_summonable": false,
-			"is_experimental": false
+			"is_experimental": false,
+	    
+			"scripts": {
+				"animate": [
+					"walk",
+					"black"
+				]
+			},
+			"animations": {
+				"black": "controller.animation.black",
+				"walk": "controller.animation.walk"
+			}
 		},
 
     "component_groups": {
