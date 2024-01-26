@@ -11,6 +11,8 @@ item.spawn_egg.entity.polynobel:trainsteam.name=Spawn trainsteam
 entity.polynobel:crab.name=crab
 item.spawn_egg.entity.polynobel:crab.name=Spawn crab
 
+item.polynobel:gun.name=Pew Pew
+
 item.spawn_egg.entity.polynobel:carriage.name=Carriage
 item.spawn_egg.entity.polynobel:cargo.name=Cargo
 
