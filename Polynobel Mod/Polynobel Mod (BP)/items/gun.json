@@ -7,8 +7,10 @@
 
     "components": {
       "minecraft:entity_placer":{
-    	"entity":"polynobel:bulletentity",
-	}
+    "entity":"minecraft:spider",
+    "dispense_on":["minecraft:web"],
+    "use_on" :["minecraft:web"]
+}
   }
 }
 }
