@@ -3,6 +3,9 @@
   "texture_data": {
     "polynobel:gun": {
       "textures": "textures/items/gun"
+    },
+    "dakon:spell1": {
+      "textures": "textures/items/spell1"
     }
   }
 }
