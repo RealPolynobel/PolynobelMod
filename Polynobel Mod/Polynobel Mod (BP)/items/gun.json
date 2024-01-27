@@ -7,15 +7,11 @@
 
     "components": {
       "minecraft:entity_placer":{
-    			"entity":"minecraft:spider",
-    			"dispense_on":["minecraft:web"],
-    			"use_on" :["minecraft:web"]
+    			"entity":"minecraft:cow",
+    			"dispense_on":["minecraft:grass"],
+    			"use_on" :["minecraft:grass"]
 			},
-		"minecraft:use_duration": 32,
-      "minecraft:food": {
-        "nutrition": 4,
-        "saturation_modifier": "low"
-      }
+		"minecraft:use_duration": 32
   }
 }
 }
