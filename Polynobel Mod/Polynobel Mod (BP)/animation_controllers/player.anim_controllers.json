@@ -16,11 +16,11 @@
     "controller.animation.black": {
       "states": {
         "default": {
-          "transitions": [ { "black": "query.get_equipped_item_name == 'Pew Pew' && query.is_using_item" } ],
+          "transitions": [ { "black": "query.get_equipped_item_name == 'gun' && query.is_using_item" } ],
           "on_entry": [ "/function blue" ]
         },
         "black": {
-          "transitions": [ { "default": "query.get_equipped_item_name == 'Pew Pew' && query.is_using_item" } ],
+          "transitions": [ { "default": "query.get_equipped_item_name == 'gun' && query.is_using_item" } ],
           "on_entry": [ "/function blue" ]
         }
       }
