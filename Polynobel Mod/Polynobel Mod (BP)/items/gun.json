@@ -6,11 +6,8 @@
     },
 
     "components": {
-      "minecraft:use_duration": 3,
       "minecraft:entity_placer":{
     	"entity":"polynobel:bulletentity",
-    	"dispense_on":["minecraft:air"],
-    	"use_on" :["minecraft:air"]
 	}
   }
 }
