@@ -7,7 +7,9 @@
     },
 
     "components": {
-      "minecraft:icon": "spell1",
+      "minecraft:icon": {
+		  "texture": "dakon:spell1"
+	  },
       "minecraft:render_offsets": "apple"
     }
   }
