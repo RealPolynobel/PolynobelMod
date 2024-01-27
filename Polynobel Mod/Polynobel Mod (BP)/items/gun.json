@@ -7,11 +7,11 @@
 
     "components": {
       "minecraft:use_duration": 3,
-      "minecraft:food": {
-        "nutrition": 0,
-        "saturation_modifier": "supernatural",
-        "can_always_eat": true
-      }
+      "minecraft:entity_placer":{
+    	"entity":"polynobel:bulletentity",
+    	"dispense_on":["minecraft:air"],
+    	"use_on" :["minecraft:air"]
+	}
   }
 }
 }
