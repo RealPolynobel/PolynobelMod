@@ -1,9 +1,6 @@
 {
   "resource_pack_name": "Polynobel Mod (RP)",
   "texture_data": {
-    "polynobel:gun": {
-      "textures": "textures/items/gun"
-    },
     "dakon:spellbook": {
       "textures": "textures/items/spellbook"
     }
