@@ -8,7 +8,7 @@
 
     "components": {
       "minecraft:icon": {
-		  "texture": "dakon:spellbook"
+		  "texture": "spellbook"
 	  },
       "minecraft:render_offsets": "apple"
     }
