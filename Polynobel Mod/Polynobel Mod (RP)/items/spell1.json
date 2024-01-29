@@ -2,13 +2,13 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "dakon:spell1",
+      "identifier": "dakon:spellbook",
       "category": "Equipment"
     },
 
     "components": {
       "minecraft:icon": {
-		  "texture": "dakon:spell1"
+		  "texture": "dakon:spellbook"
 	  },
       "minecraft:render_offsets": "apple"
     }
