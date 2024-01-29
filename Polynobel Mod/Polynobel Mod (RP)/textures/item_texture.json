@@ -5,7 +5,7 @@
       "textures": "textures/items/gun"
     },
     "dakon:spellbook": {
-      "textures": "textures/items/spell1"
+      "textures": "textures/items/spellbook"
     }
   }
 }
