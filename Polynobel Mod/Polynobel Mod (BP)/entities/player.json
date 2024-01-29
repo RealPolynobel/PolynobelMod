@@ -19,7 +19,7 @@
 		},
 
     "component_groups": {
-	  "minecraft:spell1": {
+	  "minecraft:spellbook": {
 	    "minecraft:spawn_entity": {
 		  "min_wait_time": 0,
 		  "max_wait_time": 0,
@@ -77,18 +77,18 @@
 		    "scheduled_event": {
 			  "filters": {
 			    "all_of": [
-				  { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "dakon:spell1" },
+				  { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "dakon:spellbook" },
 				  { "test": "has_tag", "subject": "self", "value": "click" }
 				]
 			  },
-			  "event": "minecraft:event_spell1"
+			  "event": "minecraft:event_spellbook"
 			}
 		  },
 		  {
 		    "scheduled_event": {
 			  "filters": {
 			    "all_of": [
-				  { "test": "has_equipment", "subject": "self", "domain": "hand", "operator": "not", "value": "dakon:spell1" }
+				  { "test": "has_equipment", "subject": "self", "domain": "hand", "operator": "not", "value": "dakon:spellbook" }
 				]
 			  },
 			  "event": "minecraft:event_normal_player"
@@ -183,16 +183,16 @@
     },
 
     "events": {
-      "minecraft:event_spell1": {
+      "minecraft:event_spellbook": {
         "add": {
-          "component_groups": [ "minecraft:spell1" ]
+          "component_groups": [ "minecraft:spellbook" ]
         }
       },
 	  
       "minecraft:event_normal_player": {
         "remove": {
           "component_groups": [
-            "minecraft:spell1"
+            "minecraft:spellbook"
           ]
         }
       },
