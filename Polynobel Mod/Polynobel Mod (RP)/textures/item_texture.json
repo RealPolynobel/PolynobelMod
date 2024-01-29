@@ -4,7 +4,7 @@
     "polynobel:gun": {
       "textures": "textures/items/gun"
     },
-    "dakon:spell1": {
+    "dakon:spellbook": {
       "textures": "textures/items/spell1"
     }
   }
