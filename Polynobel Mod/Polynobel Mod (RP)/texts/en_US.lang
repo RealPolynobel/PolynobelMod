@@ -13,7 +13,7 @@ item.spawn_egg.entity.polynobel:crab.name=Spawn crab
 
 item.polynobel:gun.name=Pew Pew
 
-item.dakon:spell1.name=SpellBook
+item.dakon:spellbook.name=SpellBook
 
 item.spawn_egg.entity.polynobel:carriage.name=Carriage
 item.spawn_egg.entity.polynobel:cargo.name=Cargo
