@@ -19,7 +19,7 @@
 		},
 
     "component_groups": {
-	  "minecraft:spellbook": {
+	  "minecraft:gun": {
 	    "minecraft:spawn_entity": {
 		  "min_wait_time": 0,
 		  "max_wait_time": 0,
@@ -77,18 +77,18 @@
 		    "scheduled_event": {
 			  "filters": {
 			    "all_of": [
-				  { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "dakon:spellbook" },
+				  { "test": "has_equipment", "subject": "self", "domain": "hand", "value": "polynobel:gun" },
 				  { "test": "has_tag", "subject": "self", "value": "click" }
 				]
 			  },
-			  "event": "minecraft:event_spellbook"
+			  "event": "minecraft:event_gun"
 			}
 		  },
 		  {
 		    "scheduled_event": {
 			  "filters": {
 			    "all_of": [
-				  { "test": "has_equipment", "subject": "self", "domain": "hand", "operator": "not", "value": "dakon:spellbook" }
+				  { "test": "has_equipment", "subject": "self", "domain": "hand", "operator": "not", "value": "polynobel:gun" }
 				]
 			  },
 			  "event": "minecraft:event_normal_player"
@@ -183,16 +183,16 @@
     },
 
     "events": {
-      "minecraft:event_spellbook": {
+      "minecraft:event_gun": {
         "add": {
-          "component_groups": [ "minecraft:spellbook" ]
+          "component_groups": [ "minecraft:gun" ]
         }
       },
 	  
       "minecraft:event_normal_player": {
         "remove": {
           "component_groups": [
-            "minecraft:spellbook"
+            "minecraft:gun"
           ]
         }
       },
