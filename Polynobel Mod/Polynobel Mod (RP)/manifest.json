@@ -14,5 +14,11 @@
             "uuid": "991d94cd-671d-4123-9256-24ddc67acdc1",
             "version": [0, 0, 2]
         }
-    ]
+    ],
+    "texture_packs": [
+    {
+      "version": [0, 0, 2],
+      "texture_pack": "items_texture.json"
+    }
+  ]
 }
