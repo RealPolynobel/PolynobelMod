@@ -18,7 +18,7 @@
     "texture_packs": [
     {
       "version": [0, 0, 2],
-      "texture_pack": "items_texture.json"
+      "texture_pack": "item_texture.json"
     }
   ]
 }
