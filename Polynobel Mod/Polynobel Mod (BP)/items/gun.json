@@ -12,7 +12,10 @@
         "nutrition": 0,
         "saturation_modifier": "supernatural",
         "can_always_eat": true
-      }
+      },
+	"minecraft:icon": {
+		"texture": "gun"
+	}
     }
   }
 }
