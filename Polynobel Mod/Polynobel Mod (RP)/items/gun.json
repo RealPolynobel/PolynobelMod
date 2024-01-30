@@ -2,13 +2,13 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "dakon:spellbook",
+      "identifier": "polynobel:gun",
       "category": "Equipment"
     },
 
     "components": {
       "minecraft:icon": {
-		  "texture": "spellbook"
+		  "texture": "polynobel:gun"
 	  },
       "minecraft:render_offsets": "apple"
     }
