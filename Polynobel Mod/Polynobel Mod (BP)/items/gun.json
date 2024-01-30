@@ -2,7 +2,8 @@
   "format_version": "1.10",
   "minecraft:item": {
 	"description": {
-      "identifier": "polynobel:gun"
+      "identifier": "polynobel:gun",
+	"category": "Items"
     },
 
     "components": {
