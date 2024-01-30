@@ -2,7 +2,7 @@
   "resource_pack_name": "Polynobel Mod (RP)",
   "texture_data": {
     "polynobel:gun": {
-      "textures": "textures/items/spellbook"
+      "textures": "textures/items/gun"
     }
   }
 }
