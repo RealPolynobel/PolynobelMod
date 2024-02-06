@@ -8,18 +8,15 @@
 
     "components": {
 	    "minecraft:use_duration": 3600,
-    //This component is what gives our spear the ability to 'draw' it like a bow
     "minecraft:throwable": {
         "min_draw_duration": 2,
         "max_draw_duration": 4,
         "scale_power_by_draw_duration": true
     },
-    //What projectile to shoot when draw is complete
     "minecraft:projectile": {
         "projectile_entity": "polynobel:bulletentity",
         "minimum_critical_power": 1.0
     },
-    //Durability of the spear.
     "minecraft:durability": {
         "max_durability": 125
     },
