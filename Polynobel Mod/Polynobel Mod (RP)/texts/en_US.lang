@@ -1,5 +1,5 @@
-entity.polynobel:test.name=test
-item.spawn_egg.entity.polynobel:test.name=Spawn test
+entity.polynobel:rat.name=rat
+item.spawn_egg.entity.polynobel:rat.name=Spawn rat
 entity.polynobel:chessboard.name=chessboard
 item.spawn_egg.entity.polynobel:chessboard.name=Spawn chessboard
 entity.polynobel:chair.name=chair
