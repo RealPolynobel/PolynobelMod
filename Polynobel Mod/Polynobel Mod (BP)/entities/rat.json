@@ -4,7 +4,8 @@
         "description": {
             "identifier": "polynobel:rat",
             "is_spawnable": true,
-            "is_summonable": true
+            "is_summonable": true,
+		"runtime_identifier": "minecraft:wolf",
         },
         "components": {
             "minecraft:physics": {},
@@ -12,15 +13,19 @@
             "minecraft:movement": {
                 "value": 0.75
             },
+			"minecraft:tameable": {
+          		"probability": 0.75,
+          		"tame_items": [ "carrot", "potato", "bread", "apple" ],
+          		"tame_event": {
+            		"event": "minecraft:on_tame",
+            		"target": "self"
+          		}
+        	},
             "minecraft:movement.basic": {},
             "minecraft:jump.static": {},
             "minecraft:navigation.walk": {
 				"avoid_water": true
             },
-            "minecraft:behavior.random_stroll": {
-				"priority": 3,
-                "speed_multiplier": 0.8
-			},
             "minecraft:experience_reward": {
                 "on_death": 8
             }
