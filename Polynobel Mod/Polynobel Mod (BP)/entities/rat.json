@@ -38,16 +38,9 @@
           		"within_radius": 8,
           		"block_distance": 512
         	},
-			"minecraft:behavior.pickup_items": {
-        		"priority": 2,
-        		"max_dist": 3,
-        		"goal_radius": 2,
-        		"speed_multiplier": 0.5
-      		},
-			"minecraft:behavior.go_and_give_items_to_owner": {
-        		"priority": 3,
-        		"run_speed": 8
-      		},
+			"minecraft:behavior.enderman_take_block":{
+    			"priority": 1
+			},
             "minecraft:experience_reward": {
                 "on_death": 8
             }
