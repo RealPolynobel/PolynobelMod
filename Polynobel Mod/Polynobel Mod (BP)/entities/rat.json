@@ -27,34 +27,26 @@
 				"avoid_water": true
             },
 			"minecraft:behavior.follow_owner":{
-    			"priority": 3,
+    			"priority": 4,
    				 "speed_multiplier": 1.0,
     			"start_distance": 5.0,
     			"stop_distance": 2.5
 			},
 			"minecraft:behavior.move_to_random_block": {
-          		"priority": 4,
+          		"priority": 5,
           		"speed_multiplier": 0.55,
           		"within_radius": 8,
           		"block_distance": 512
         	},
 			"minecraft:behavior.pickup_items": {
-        		"priority": 1,
-        		"max_dist": 10,
+        		"priority": 2,
+        		"max_dist": 3,
         		"goal_radius": 2,
-        		"speed_multiplier": 0.8,
-        		"can_pickup_any_item": true
+        		"speed_multiplier": 0.5
       		},
 			"minecraft:behavior.go_and_give_items_to_owner": {
-        		"priority": 2,
-        		"run_speed": 8,
-        		"throw_sound": "item_thrown",
-        		"on_item_throw": [
-          			{
-            			"event": "pickup_item_delay",
-            			"target": "self"
-          			}
-        		]
+        		"priority": 3,
+        		"run_speed": 8
       		},
             "minecraft:experience_reward": {
                 "on_death": 8
