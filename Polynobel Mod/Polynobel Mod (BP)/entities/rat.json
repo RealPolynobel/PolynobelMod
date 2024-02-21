@@ -13,6 +13,9 @@
             "minecraft:movement": {
                 "value": 0.75
             },
+			"minecraft:scale: {
+				"value": 0.3
+			},
 			"minecraft:tameable": {
           		"probability": 0.75,
           		"tame_items": [ "carrot", "potato", "bread", "apple" ],
