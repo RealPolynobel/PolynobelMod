@@ -40,17 +40,6 @@
           		"within_radius": 8,
           		"block_distance": 512
         	},
-			"minecraft:behavior.pickup_items": {
-        		"priority": 6,
-        		"max_dist": 3,
-        		"goal_radius": 2,
-        		"speed_multiplier": 1.0,
-        		"pickup_based_on_chance": true,
-        		"can_pickup_any_item": true,
-        		"excluded_items": [
-          			"minecraft:glow_ink_sac"
-        		]
-      `		},
             "minecraft:experience_reward": {
                 "on_death": 8
             }
