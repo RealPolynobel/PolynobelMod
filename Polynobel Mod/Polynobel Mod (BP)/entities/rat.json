@@ -10,7 +10,7 @@
             "minecraft:physics": {},
 			"minecraft:nameable": {},
             "minecraft:movement": {
-                "value": 0.75
+                "value": 0.5
             },
 			"minecraft:scale": {
 				"value": 0.3
