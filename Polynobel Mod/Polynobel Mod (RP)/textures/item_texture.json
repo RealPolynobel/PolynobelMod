@@ -1,7 +1,7 @@
 {
   "texture_data": {
-    "polynobel:gun": {
-      "textures": "textures/items/gun"
-    }
+    "end_sword": {
+		"textures": "textures/items/end_sword.png"
+	}
   }
 }
